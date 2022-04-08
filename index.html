@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarchSocial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<nav>
+    <div class="nav-left">
+        <img src="image/icons8_user_48px.png" class="logo">
+        <ul>
+            <li><img src="image/notification.png"></li>
+            <li><img src="image/icons8_messages_48px.png"></li>
+            <li><img src="image/video.png"></li>
+        </ul>
+    </div>
+    <div class="nav-right">
+
+        <div class="search-box">
+            <img src="./image/search.png">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+            <img src="./image/IMG_2193.jpeg" >
+        </div>
+<!-----------------------settings-menu --------------------->
+        <div class="settings-menu">
+
+            <div id="dark-btn" >
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="./image/IMG_2193.jpeg" >
+                    <div>
+                        <p>Maxime Darcho</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="./image/icons8_delete_message_64px.png" >
+                    <div>
+                        <p>Gide FeedBack</p>
+                        <a href="#">Help us to improve the new Design </a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-link">
+                    <img src="./image/icons8_settings_50px.png" class="settings-icon">
+                    <a href="#">Setting & Privacy <img src="./image/icons8_more_than_16px.png" width="10px"></a>
+                </div>
+                <div class="settings-link">
+                    <img src="./image/icons8_help_24px.png" class="settings-icon">
+                    <a href="#">Help & Support  <img src="./image/icons8_more_than_16px.png" width="10px"></a>
+                </div>
+                <div class="settings-link">
+                    <img src="./image/icons8_settings_50px.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="./image/icons8_more_than_16px.png" width="10px"></a>
+                </div>
+                <div class="settings-link">
+                    <img src="./image/icons8_exit_24px.png" class="settings-icon">
+                    <a href="#">Lougout <img src="./image/icons8_more_than_16px.png" width="10px"></a>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</nav>
+
+<div class="container">
+    <!-----------------------left-sidebar --------------------->
+    <div class="left-sidebar">
+        <div class="imp-links">
+            <a href="#"><img src="image/icons8_user_male_26px.png" > Latest News</a>
+            <a href="#"><img src="image/friands.png"> Friends</a>
+            <a href="#"><img src="image/group.png" > Group</a>
+            <a href="#"><img src="image/marketplace.png" > MarketPlace</a>
+            <a href="#"><img src=""> Watch</a>
+            <a href="#">See More</a>
+        </div>
+        <div class="shortcut-links">
+            <p>You shortcuts</p>
+            <a href=""><img src="./image/IMG_2078.jpeg" > Web Developers</a>
+            <a href=""><img src="./image/IMG_20200530_160653.jpg" > Web Design course</a>
+            <a href=""><img src="./image/IMG_2193.jpeg" > Full Stack Development</a>
+            <a href=""><img src="./image/IMG_0536.JPG" > Website Experts</a>
+        </div>
+    </div>
+     <!-----------------------main-content --------------------->
+    <div class="main-content">
+
+        <div class="story-gallery">
+            <div class="story story1">
+                <img src="./image/icons8_add_64px.png" >
+                <p>Post story</p>
+            </div>
+            <div class="story story2">
+                <img src="./image/téléchargement (3).jpeg" >
+                <p>Maxime</p>
+            </div>
+            <div class="story story3">
+                <img src="./image/téléchargement (4).jpeg" >
+                <p>Kaze</p>
+            </div>
+            <div class="story story4">
+                <img src="./image/ridovic.jpg" >
+                <p>Ridovic </p>
+            </div>
+            <div class="story story5">
+                <img src="./image/IMG_2078.jpeg" >
+                <p>Aguekeng</p>
+            </div>
+        </div>
+
+        <div class="write-post-container">
+            <div class="user-profile">
+                <img src="./image/IMG_2193.jpeg" >
+                <div>
+                    <p>Maxime Darcho</p>
+                    <small>Public <i class="fas fa-caret-down"><img src="/image//icons8_sort_down_26px.png" ></i></small>
+                </div>
+            </div>
+
+            <div class="post-input-container">
+                <textarea rows="3" placeholder="What's on your mind maxime?"></textarea>
+                <div class="add-post-links">
+                    <a href="#"><img src="./image/video.png" >Live Video </a>
+                    <a href="#"><img src="./image/icons8_camera_26px.png" >Photo/Video </a>
+                    <a href="#"><img src="./image/stickers.png" >Feling/Activity</a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="./image/IMG_2193.jpeg" >
+                    <div>
+                        <p>Maxime Darcho</p>
+                        <span>Janauary 24 2022 , 14:21 pm</span>
+                    </div>
+                </div>
+                <a href=""> <i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text"><span>@Maxime Darcho</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. <a href="">@MaximeDarcho</a>
+                 Quo quas perferendis id?</p>
+                 <img src="./image/maxime.jpeg" class="post-image">
+
+                 <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./image/icons8_facebook_like_50px.png" >500</div>
+                        <div><img src="./image/icons8_comments_30px.png" >230</div>
+                        <div><img src="./image/icons8_right_2_48px.png" >20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./image/téléchargement (3).jpeg" > <i class="fas fa-caret-down"><img src="/image//icons8_sort_down_26px.png" ></i>
+
+                    </div>
+
+                 </div>
+
+        </div>
+
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="./image/ridovic.jpg" >
+                    <div>
+                        <p>Issemou Ridovic</p>
+                        <span>Janauary 18 2022 , 17:05 pm</span>
+                    </div>
+                </div>
+                <a href=""> <i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text"><span>@Issemou Ridovic</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. <a href="">@IssemouRidovic</a>
+                 Quo quas perferendis id?</p>
+                 <img src="./image/ridovic.jpg" class="post-image">
+
+                 <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./image/icons8_facebook_like_50px.png" >250</div>
+                        <div><img src="./image/icons8_comments_30px.png" >80</div>
+                        <div><img src="./image/icons8_right_2_48px.png" >12</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./image/téléchargement (3).jpeg" > <i class="fas fa-caret-down"><img src="/image//icons8_sort_down_26px.png" ></i>
+
+                    </div>
+
+                 </div>
+
+        </div>
+
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="./image/ridovic.jpg" >
+                    <div>
+                        <p>Kaze Cedric</p>
+                        <span>Janauary 15 2022 , 12:10 pm</span>
+                    </div>
+                </div>
+                <a href=""> <i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text"><span>@Kaze Cedric</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. <a href="">@KazeCedric</a>
+                 Quo quas perferendis id?</p>
+                 <img src="./image/téléchargement (4).jpeg" class="post-image">
+
+                 <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./image/icons8_facebook_like_50px.png" >400</div>
+                        <div><img src="./image/icons8_comments_30px.png" >100</div>
+                        <div><img src="./image/icons8_right_2_48px.png" >17</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./image/téléchargement (3).jpeg" > <i class="fas fa-caret-down"><img src="/image//icons8_sort_down_26px.png" ></i>
+
+                    </div>
+
+                 </div>
+
+        </div>
+
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="./image/téléchargement (3).jpeg" >
+                    <div>
+                        <p>Aguekeng Arol</p>
+                        <span>Janauary 09 2022 , 19:45 pm</span>
+                    </div>
+                </div>
+                <a href=""> <i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text"><span>@Aguekeng Arol</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. <a href="">@AguekengArol</a>
+                 Quo quas perferendis id?</p>
+                 <img src="./image/téléchargement (3).jpeg" class="post-image">
+
+                 <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./image/icons8_facebook_like_50px.png" >350</div>
+                        <div><img src="./image/icons8_comments_30px.png" >90</div>
+                        <div><img src="./image/icons8_right_2_48px.png" >15</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./image/téléchargement (3).jpeg" > <i class="fas fa-caret-down"><img src="/image//icons8_sort_down_26px.png" ></i>
+
+                    </div>
+
+                 </div>
+
+        </div>
+
+
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="./image/images.jpeg" >
+                    <div>
+                        <p>Nogue Brice</p>
+                        <span>Janauary 05 2022 , 17:39 pm</span>
+                    </div>
+                </div>
+                <a href=""> <i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text"><span>@Nogue Brice</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. <a href="">@NogueBrice</a>
+                 Quo quas perferendis id?</p>
+                 <img src="./image/images.jpeg" class="post-image">
+
+                 <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./image/icons8_facebook_like_50px.png" >100</div>
+                        <div><img src="./image/icons8_comments_30px.png" >12</div>
+                        <div><img src="./image/icons8_right_2_48px.png" >1</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./image/téléchargement (3).jpeg" > <i class="fas fa-caret-down"><img src="/image//icons8_sort_down_26px.png" ></i>
+
+                    </div>
+
+                 </div>
+
+        </div>
+
+        <button type="button" class="Load-more-btn">Load More</button>
+
+    </div>
+     <!-----------------------right-sidebar --------------------->
+    <div class="right-sidebar">
+
+        <div class="sidebar-title">
+            <h4>Events</h4>
+            <a href="#">See All</a>
+        </div>
+
+        <div class="event">
+            <div class="left-event">
+                <h3>18</h3>
+                <span>March</span>
+            </div>
+            <div class="right-event">
+                <h4>Social Media</h4>
+                <p> <i><img src="./image/icons8_location_24px.png"></i> Maxime Tech park</p>
+                <a href="#">More Info</a>
+            </div>
+        </div>
+        <div class="event">
+            <div class="left-event">
+                <h3>22</h3>
+                <span>June</span>
+            </div>
+            <div class="right-event">
+                <h4>Mobile Marketing</h4>
+                <p><i><img src="./image/icons8_location_24px.png" ></i>Maxime Tech park</p>
+                <a href="#">More Info</a>
+            </div>
+        </div>
+
+        <div class="sidebar-title">
+            <h4>Advertisement</h4>
+            <a href="#">Close</a>
+        </div>
+        <img src="./image/IMG_2193.jpeg" class="sidebar-ads">
+
+
+        <div class="sidebar-title">
+            <h4>Conversation</h4>
+            <a href="#">Hide chat</a>
+        </div>
+
+        <div class="online-list">
+            <div class="online">
+                <img src="./image/images.jpeg" >
+            </div>
+            <p>Maxime Nokize</p>
+        </div>
+        <div class="online-list">
+            <div class="online">
+                <img src="./image/téléchargement (4).jpeg" >
+            </div>
+            <p>Kaze Cedric</p>
+        </div>
+        <div class="online-list">
+            <div class="online">
+                <img src="./image/téléchargement (3).jpeg" >
+            </div>
+            <p>Issemou Ridovic</p>
+        </div>
+
+    </div>
+    
+</div>
+
+<div class="footer">
+    <p>Copyright 2022 - Nokize Maxime @MaximeDarcho</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
